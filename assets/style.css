@@ -1,0 +1,47 @@
+
+/* iner contaner for the head */
+.iner-head{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* style for all text */
+h1, p, h2{
+    font-family: fantasy;
+    font-weight: 100;
+}
+/* ----------------------all content in the head tage starts here-------------- */
+
+/* backgroung img for the head text */
+.head{
+    background-image: url(/assets/img/future-car-scaled-1.jpg);
+    border-radius: 25px;
+}
+/* welcome test style  */
+.welcome-text{
+    margin-left: 50px;
+    font-size: 32px;
+    padding: 10px;
+   
+    
+}
+/* vidoe text style */
+.video-text, .info-text{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+/* contact me text style */
+.contact-text{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+/* all  backgroung style for the head tage*/
+.video-text, .info-text, .welcome-text{
+    background-image: linear-gradient(rgb(0, 195, 255), rgb(97, 207, 226) );
+    border: .2rem solid rgba(0, 0, 0, 0.637);
+    border-radius: .5rem;
+}
+/* ------------------------all the content in the head stops here------------------ */
