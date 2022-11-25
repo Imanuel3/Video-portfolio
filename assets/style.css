@@ -1,7 +1,8 @@
 body{
-    background-image: url(/assets/img/fucher.webp);
+    background-image: url(./img/Video-editing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* iner contaner for the head */
@@ -18,16 +19,25 @@ h1, p, h2{
 
 /* backgroung img for the head text */
 .head{
-    background-image: url(/assets/img/future-car-scaled-1.jpg);
+    background-image: url(./img/blur\ city.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120rem 40rem;
+    /* background-size: cover; */
     border-radius: 25px;
+    transition: .7s;
+    border: .1rem solid rgba(7, 115, 204, 0.507);
+}
+.head:hover{
+    background-image: url(./img/fire.jpg);
+    border: .2rem solid rgba(245, 245, 220, 0.507);
+   
 }
 /* welcome test style  */
 .welcome-text{
     margin-left: 50px;
     font-size: 32px;
     padding: 10px;
-   
-    
 }
 /* vidoe text style */
 .video-text, .info-text{
@@ -40,13 +50,78 @@ h1, p, h2{
 .contact-text{
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    margin: 1rem 52rem;
+    background-image: linear-gradient(rgb(64, 25, 155), rgba(12, 146, 84, 0.397));
+    color: rgba(0, 162, 255, 0.63);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
+    border-radius: 5px;
+    /* border: .2rem solid black; */
+    transition: .7s;
+}
+.contact-text:hover{
+    color: aqua;
 }
 /* all  backgroung style for the head tage*/
-.video-text, .info-text, .welcome-text{
-    background-image: linear-gradient(rgb(0, 195, 255), rgb(97, 207, 226) );
-    border: .2rem solid rgba(0, 0, 0, 0.637);
+.video-text, .info-text, .welcome-text, #wrestling-text{
+    background-image: linear-gradient(rgb(64, 25, 155), rgba(12, 12, 12, 0.397));
+    /* border: .2rem solid rgba(0, 0, 0, 0.637); */
     border-radius: .5rem;
+    color: rgba(248, 246, 141, 0.589);
+    transition: .9s;
 }
+.video-text:hover{
+    color: rgba(255, 0, 0, 0.521);
+}
+.video-link{
+    text-decoration: none;
+    color: black;
+}
+
 /* ------------------------all the content in the head stops here------------------ */
+
+
+/* ------------------------wrestling videos style stars here-------------------- */
+/* style for wrestling text */
+#wrestling-text{
+    display: flex;
+    justify-content: center;
+    color: rgba(197, 191, 101, 0.671);
+    margin: 0rem  43rem;
+    padding-left: 1rem;
+    background-image: linear-gradient(rgba(120, 56, 150, rgb(21, 22, 24)6, 146));
+    text-shadow: 2px 2px 4px rgba(159, 169, 182, 0.486);
+}
+/* magin seporating the main tab and the wrestling ext */
+.wrestling{
+    margin-top: 5rem;
+  
+}
+/* style and spasing for the wrestling videos */
+.wrestling-videos{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+} 
+/* space for the right of the page  */
+.space{
+    margin-left: 20rem;
+}
+
+.holder{
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    background-image: linear-gradient(rgb(56, 107, 150), rgb(12, 66, 146));
+    border-radius: 1rem;
+    border: .35rem solid black; 
+    margin-left: 2rem;
+}
+
+/* ----------------------------- wrestling videos style ends here------------ */
+iframe{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    opacity: .8;
+}
+
