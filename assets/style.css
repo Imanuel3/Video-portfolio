@@ -66,7 +66,7 @@ h1, p, h2{
     background-image: linear-gradient(rgb(64, 25, 155), rgba(12, 12, 12, 0.397));
     /* border: .2rem solid rgba(0, 0, 0, 0.637); */
     border-radius: .5rem;
-    color: rgba(248, 246, 141, 0.589);
+    color: rgba(255, 255, 255, 0.589);
     transition: .9s;
 }
 .video-text:hover{
@@ -85,7 +85,7 @@ h1, p, h2{
 #wrestling-text{
     display: flex;
     justify-content: center;
-    color: rgba(197, 191, 101, 0.671);
+    color: rgba(255, 255, 255, 0.384);
     margin: 0rem  43rem;
     padding-left: 1rem;
     background-image: linear-gradient(rgba(120, 56, 150, rgb(21, 22, 24)6, 146));
@@ -125,3 +125,25 @@ iframe{
     opacity: .8;
 }
 
+/* styel for scrol bar */
+.wrestling ::-webkit-scrollbar{
+    background-color: rgb(0, 0, 0);
+    opacity: .5;
+    border-radius: 10px;
+    height: .8rem;
+}
+
+.wrestling ::-webkit-scrollbar-thumb{
+    background-color: rgba(32, 11, 216, 0.911);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border:  .2rem solid rgb(0, 0, 0);
+}
+
+/* style for fier fox scrolbar  */
+@supports (scrollbar-color: red blue ) {
+    * {
+        scrollbar-color: rgb(38, 0, 255) rgb(0, 0, 0);
+        scrollbar-width: thin ; 
+    }
+}
