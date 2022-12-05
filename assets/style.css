@@ -82,10 +82,10 @@ h1, p, h2{
 
 /* ------------------------wrestling videos style stars here-------------------- */
 /* style for wrestling text */
-#wrestling-text{
+#wrestling-text, .famText{
     display: flex;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.384);
+    color: rgba(255, 255, 255, 0.575);
     margin: 0rem  43rem;
     padding-left: 1rem;
     background-image: linear-gradient(rgba(120, 56, 150, rgb(21, 22, 24)6, 146));
@@ -147,3 +147,16 @@ iframe{
         scrollbar-width: thin ; 
     }
 }
+
+/* ----------------------------------------------------style for fam------------------------------------------- */
+.famText{
+    margin-top: 2rem;
+    background: rgba(19, 146, 185, 0.616);
+   border-radius: .5rem;
+   border: .1rem solid black;
+}
+
+/* .family{
+    display: flex;
+    justify-content: space-around;
+} */
